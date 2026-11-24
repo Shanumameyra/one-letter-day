@@ -13,6 +13,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname } from "node:path";
 
+// Entry: one letter, exactly one byte, no trailing newline.
 const LETTER = "V";
 const OUT_PATH = "/output/entry.txt";
 
